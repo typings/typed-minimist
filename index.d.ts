@@ -11,7 +11,7 @@ declare module minimist {
     // An object mapping string names to strings or arrays of string argument
     // names to use as aliases.
     alias?: {
-      [key:string]: string[];
+      [key:string]: string|string[];
     };
     // An object mapping string argument names to default values.
     default?: {
